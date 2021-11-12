@@ -1,8 +1,11 @@
-import Home from './pages/Home/Home';
+import Routes from './Routes';
+import './App.css';
 
 function App() {
   return (
-    <Home/>
+    <>
+      <Routes/>
+    </>
   );
 }
 

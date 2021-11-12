@@ -1,0 +1,35 @@
+.header { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 26vh;
+}
+
+.container-header-logo {
+    padding-top: 50px;
+}
+
+
+.header-logo-1 {
+    font-size: 55px;
+    text-align: center;
+    line-height: 5px;
+    font-family: 'Roboto Slab', serif;
+    color: var(--light-blue);
+
+}
+
+.header-logo-2 {
+    font-size: 70px;
+    letter-spacing: 10px;
+    margin-left: 13px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: var(--light-blue);
+}
+
+.header-img {
+    width: 300px;
+    height: 180px;
+}

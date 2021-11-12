@@ -1,10 +1,6 @@
 import React, { useState, useRef } from "react";
+import { useNavigate } from 'react-router-dom';
 import './styles.css';
-import { ReactComponent as Img2 } from '../Home/left.png';
-import { ReactComponent as Img1 } from '../Home/right.png'; 
-import img1 from'../Home/right.png';
-import img2 from'../Home/left.png';
-
 
 function Home() {
     const [concepts, setConcepts] = useState([{
@@ -95,21 +91,17 @@ function Home() {
         carousel.current.scrollLeft += carousel.current.offsetWidth;
     }
 
-    console.log(concepts);
-    console.log(rights);
+    const navigate = useNavigate();
+
+    function modal() {  
+        navigate('/modal');
+    }
     return (
-        <div className="container">
-            <div className="header">
-            <img src={img1} className="header-img" alt="fireSpot"/>
-                <div className="container-header-logo">
-                    <p className="header-logo-1">cartilha</p>
-                    <p className="header-logo-2">LGPD</p>
-                </div>
-                <img src={img2} className="header-img" alt="fireSpot"/>
+        <div className="container">  
+            <h1>Home</h1>
+            <div className="btn" onClick={()=>modal()}>
+                <p className="btn-text">Ir para modal</p>
             </div>
-
-
-            
         </div>
     )
 }
