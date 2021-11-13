@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './pages/Components/Header/Header';
+import Header from './Components/Header/Header';
 import Home from './pages/Home/Home';
-import Modal from './pages/Modal/Modal';
+import Concepts from './pages/Concepts/Concepts';
 
 function index() {
   return (
@@ -10,7 +10,7 @@ function index() {
         <Header/>
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/modal" element={<Modal/>}/>
+            <Route path="/concepts" element={<Concepts/>}/>
         </Routes>
       </BrowserRouter>
   );
