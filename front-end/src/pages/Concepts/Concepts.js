@@ -2,20 +2,20 @@ import React from "react";
 import { useNavigate } from "react-router";
 import './styles.css';
 
-function Modal({ onClose=()=>{}}) {
+function Concepts() {
     const navigate = useNavigate();
 
-    function home() {  
+    const navigateHome = () => {  
         navigate('/');
     }
     return(
         <div className="modal">
-            <h1>Modal</h1>
-            <div className="btn-modal" onClick={()=>home()}>
+            <h1>Conceitos</h1>
+            <div className="btn-modal" onClick={()=>navigateHome()}>
                 <p className="btn-modal-text">Ir para home</p>
             </div>        
         </div>
     );
 }
 
-export default Modal;
+export default Concepts;
