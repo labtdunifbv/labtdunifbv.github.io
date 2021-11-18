@@ -8,7 +8,7 @@ import Footer from "../../Components/Footer/Footer";
 
 function Rights() {
     const [rights, setRights] = useState(RightsData);
-    const {title, setTitle} = useState('Direitos');
+    const [title, setTitle] = useState('Direitos');
     const navigate = useNavigate();
     const navigateHome = () => {  
         navigate('/');
@@ -42,7 +42,7 @@ function Rights() {
                 </div>
             </div>
             <Footer verification={title}/>
-            
+
         </div>
     );
 }
