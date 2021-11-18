@@ -1,0 +1,34 @@
+.container-footer {
+    height: 60px;
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.btn-footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-footer:hover {
+    transform: scale(1.05);
+    background-color: var(--opaque-blue);
+
+}
+
+.btn-footer-text {
+    color: var(--background);
+    text-align: center;
+}

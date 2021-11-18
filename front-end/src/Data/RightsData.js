@@ -21,6 +21,6 @@ export const RightsData = [
     },
     {
         title: "Art. 46",
-        text: "As pessoas competentes para realizar toda operação com os seus dados pessoais,  tem a obrigação de  adotar todas as medidas de segurança necessárias à proteção dos seus dados pessoais contra acessos não autorizados, situações acidentais que exponham os seus dados, bem como de qualquer forma de operação ilícita."
+        text: "As pessoas competentes para realizar toda operação com os seus dados pessoais, tem a obrigação de adotar todas as medidas de segurança necessárias à proteção dos seus dados pessoais contra acessos não autorizados, situações acidentais que exponham os seus dados, bem como de qualquer forma de operação ilícita."
     }
 ]
