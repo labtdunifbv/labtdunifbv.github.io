@@ -42,7 +42,7 @@ function Rights() {
                 </div>
             </div>
             <Footer verification={title}/>
-            
+
         </div>
     );
 }
