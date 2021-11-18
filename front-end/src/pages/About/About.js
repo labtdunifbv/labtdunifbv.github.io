@@ -1,8 +1,10 @@
-import React, { } from "react";
+import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
+import Footer from "../../Components/Footer/Footer";
 import './styles.css';
 
 function About() {
+    const [title, setTitle] = useState('Sobre');
     const navigate = useNavigate();
     const navigateHome = () => {  
         navigate('/');
@@ -20,7 +22,7 @@ function About() {
         <div className="container-about">  
             <br></br>
             <br></br>
-            <h1>SOBRE</h1>
+            <h1>{title}</h1>
             <br></br>
             <br></br>
             <h3>A Cartilha Digital tem como objetivo a criação de uma cartilha sobre a Lei Geral de Proteção de Dados.</h3>
@@ -35,9 +37,7 @@ function About() {
             <br></br>
             <br></br>
             <br></br>
-            <div className="btn-about" onClick={()=>navigateHome()}>
-                <p className="btn-about-text">Voltar para o Menu Principal</p>
-            </div>
+            <Footer verification={title}/>
         </div>
     );
 }
