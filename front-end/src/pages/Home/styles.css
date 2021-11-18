@@ -17,7 +17,7 @@
 .btn-c {
     padding-left: 10px;
     padding-right: 10px;
-    height: 230px;
+    height: 170px;
     width: 48%;
     border-radius: 10px;
     background-color: var(--dark-blue);
@@ -36,7 +36,7 @@
 .btn-d {
     padding-left: 10px;
     padding-right: 10px;
-    height: 230px;
+    height: 170px;
     width: 48%;
     border-radius: 10px;
     background-color: var(--light-blue);
@@ -55,7 +55,7 @@
 .btn-s {
     padding-left: 10px;
     padding-right: 10px;
-    height: 230px;
+    height: 170px;
     width: 48%;
     border-radius: 10px;
     background-color: var(--dark-green);
@@ -74,7 +74,7 @@
 .btn-u {
     padding-left: 10px;
     padding-right: 10px;
-    height: 230px;
+    height: 170px;
     width: 48%;
     border-radius: 10px;
     background-color: var(--opaque-green);
