@@ -8,31 +8,90 @@
 
 
 .container {
-    background-color: var(--dark-green);
+    background-color: var(--background);
     height: 76vh;
-
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
 }
 
-.btn {
+.btn-c {
     padding-left: 10px;
     padding-right: 10px;
-    height: 40px;
-    width: 150px;
+    height: 230px;
+    width: 48%;
     border-radius: 10px;
-    background-color: crimson;
+    background-color: var(--dark-blue);
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    float: left;
+    margin: 10px;
 }
 
-.btn:hover {
-    transform: scale(1.05);
+.btn-c:hover {
+    transform: scale(1.03);
+}
+
+.btn-d {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 230px;
+    width: 48%;
+    border-radius: 10px;
+    background-color: var(--light-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+}
+
+.btn-d:hover {
+    transform: scale(1.02);
+}
+
+.btn-s {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 230px;
+    width: 48%;
+    border-radius: 10px;
+    background-color: var(--dark-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+}
+
+.btn-s:hover {
+    transform: scale(1.02);
+}
+
+.btn-u {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 230px;
+    width: 48%;
+    border-radius: 10px;
+    background-color: var(--opaque-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    float: left;
+    margin: 10px;
+}
+
+.btn-u:hover {
+    transform: scale(1.03);
 }
 
 .btn-text {
     color: white;
     text-align: center;
+    font-size: 45px;
 }
-
-

@@ -5,6 +5,9 @@ import Home from './pages/Home/Home';
 import Concepts from './pages/Concepts/Concepts';
 import Rights from './pages/Rights/Rights';
 import About from './pages/About/About';
+import Direito from './pages/About/Direito';
+import Design from './pages/About/Design';
+import Transformacao from './pages/About/Transformacao';
 import Utilities from './pages/Utilities/Utilities';
 
 function index() {
@@ -17,6 +20,9 @@ function index() {
             <Route path="/direitos" element={<Rights/>}/>
             <Route path="/sobre" element={<About/>}/>
             <Route path="/utilidades" element={<Utilities/>}/>
+            <Route path="/direito" element={<Direito/>}/>
+            <Route path="/design" element={<Design/>}/>
+            <Route path="/transformacao" element={<Transformacao/>}/>
         </Routes>
       </BrowserRouter>
   );

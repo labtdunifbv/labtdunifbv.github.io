@@ -1,15 +1,18 @@
 .container-about {
-    background-color: purple;
+    background-color: var(--background);
     height: 76vh;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
 }
 
 .btn-about {
     padding-left: 10px;
     padding-right: 10px;
-    height: 40px;
-    width: 150px;
+    height: 50px;
+    width: 30%;
     border-radius: 10px;
-    background-color: #032332;
+    background-color: var(--dark-green);
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,4 +26,69 @@
 .btn-about-text {
     color: white;
     text-align: center;
+    font-size: 18px;
+}
+
+h1{
+    color: var(--dark-green);
+}
+
+.btn-di {
+    height: 35px;
+    width: 5%;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-di:hover {
+    transform: scale(1.02);
+}
+
+.btn-di-text {
+    color: var(--dark-green);
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn-t {
+    height: 35px;
+    width: 13%;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-t:hover {
+    transform: scale(1.02);
+}
+
+.btn-t-text {
+    color: var(--dark-green);
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn-de {
+    height: 35px;
+    width: 4%;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-de:hover {
+    transform: scale(1.02);
+}
+
+.btn-de-text {
+    color: var(--dark-green);
+    text-align: center;
+    font-size: 18px;
 }
