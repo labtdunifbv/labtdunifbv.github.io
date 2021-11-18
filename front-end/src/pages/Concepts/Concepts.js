@@ -60,7 +60,7 @@ function Concepts() {
                 <div className="btn-arrow" onClick={handleLeftClick}>
                     <img src={arrowLeft} className="btn-img" alt="left"/>
                 </div>
-                <div className="carousel" ref={carousel}>
+                <div className="carousel-concepts" ref={carousel}>
                     {concepts.map(concept => (
                         <div className="item-concepts">
                             <p className="item-title">{concept.title}</p>

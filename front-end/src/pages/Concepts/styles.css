@@ -38,6 +38,8 @@
 
 .carousel-gibi::-webkit-scrollbar {
     display: none;
+    width: 0px;
+    height: 0px;
 }
 
 .item {
@@ -45,7 +47,6 @@
     margin-right: 5px;
     width: 390px;
     flex: none;
-    
 }
 
 .title-concepts {
@@ -56,7 +57,7 @@
     font-size: 48px;
 }
 
-.carousel {
+.carousel-concepts {
     display: flex;
     overflow-y: auto;
     scroll-behavior: smooth;
@@ -65,8 +66,10 @@
     width: 90%;
 }
 
-.carousel::-webkit-scrollbar {
+.carousel-concepts::-webkit-scrollbar {
     display: none;
+    width: 0px;
+    height: 0px;
 }
 
 .item-concepts {
@@ -96,7 +99,6 @@
     margin-right: auto;
     font-size: 14px;
 }
-
 
 .btn-concepts {
     padding-left: 10px;
