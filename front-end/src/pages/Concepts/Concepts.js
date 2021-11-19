@@ -54,9 +54,8 @@ function Concepts() {
                 </div>
             </div> 
 
-            <h1 className="title-concepts">{title}</h1>
 
-            <div className="container-carousel">
+            <div className="container-carousel-concepts">
                 <div className="btn-arrow" onClick={handleLeftClick}>
                     <img src={arrowLeft} className="btn-img" alt="left"/>
                 </div>

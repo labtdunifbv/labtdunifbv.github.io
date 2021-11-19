@@ -25,7 +25,7 @@ function Rights() {
     return(
         <div className="container-rights">  
             <h1>{title}</h1>
-            <div className="container-carousel">
+            <div className="container-carousel-rights">
                 <div className="btn-arrow" onClick={handleLeftClick}>
                     <img src={arrowLeft} className="btn-img" alt="left"/>
                 </div>
@@ -33,7 +33,9 @@ function Rights() {
                     {rights.map(right => (
                         <div className="item-rights">
                             <p className="item-title">{right.title}</p>
-                            <p className="item-text">&nbsp;&nbsp;{right.text}</p>
+                            <p className="item-text">{right.text}</p>
+                            <p className="item-text">{right.text1}</p>
+                            <p className="item-text">{right.text2}</p>
                         </div>
                     ))}
                 </div>
