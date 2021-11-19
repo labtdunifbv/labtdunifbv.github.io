@@ -46,5 +46,33 @@
     {
         title: "XII – CONSENTIMENTO",
         text: "É a permissão que você dá para que seus dados pessoais sejam tratados por uma pessoa física ou jurídica, sendo assegurado a você o direito de saber para que fim os seus dados serão usados."
+    },
+    {
+        title: "XIII - BLOQUEIO",
+        text: "É a proibição temporária de realizar qualquer operação com os seus dados que a empresa ou pessoa física possui do titular."
+    },
+    {
+        title: "XIV - ELIMINAÇÃO",
+        text: "É a exclusão dos seus dados pessoais do titular do banco de dados da empresa ou da pessoa física que os estão armazenando."
+    },
+    {
+        title: "XV - TRANSFERÊNCIA INTERNACIONAL DE DADOS",
+        text: "É a transmissão dos seus dados pessoais do titular para outros países ou para qualquer entidade internacional."
+    },
+    {
+        title: "XVI - USO COMPARTILHADO DE DADOS",
+        text: "É caracterizado por ­toda e qualquer situação em que os seus dados pessoais são repassados por órgãos e entidades públicas no exercício de suas funções e entre empresas e pessoas privadas com autorização específica do titular."
+    },
+    {
+        title: "XVII - RELATÓRIO DE IMPACTO À PROTEÇÃO DE DADOS PESSOAIS",
+        text: "É um documento com a descrição de todas as operações realizadas com os seus dados que podem gerar riscos as suas liberdades civis e aos seus direitos fundamentais."
+    },
+    {
+        title: "XVIII - ORGÃO DE PESQUISA",
+        text: "É uma pessoa jurídica de direito público ou de direito privado sem fins lucrativos, com sede no Brasil, tendo como objetivo a realização de pesquisas básicas."
+    },
+    {
+        title: "XIX-AUTORIDADE NACIONAL",
+        text: "É o orgão responsável por implementar e gerenciar e fiscalizar o cumprimento das regras da LGPD, denominado ANPD, Autoridade Nacional de Proteção de Dados."
     }
 ]
