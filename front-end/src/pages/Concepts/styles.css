@@ -139,5 +139,16 @@
 
 @media (min-width: 1100px) {
 
+    .carousel-gibi::-webkit-scrollbar {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    
+    .carousel-concepts::-webkit-scrollbar {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
  }
 
