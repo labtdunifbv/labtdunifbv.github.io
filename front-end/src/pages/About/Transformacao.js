@@ -10,9 +10,7 @@ function Transformacao() {
     return(
         <div className="container-about">  
             <br></br>
-            <br></br>
             <h1>NÚCLEO DE TRANSFORMAÇÃO DIGITAL</h1>
-            <br></br>
             <br></br>
             <h2>LAB TD - LABORATÓRIO TRANSFORMAÇÃO DIGITAL</h2>
             <br></br>

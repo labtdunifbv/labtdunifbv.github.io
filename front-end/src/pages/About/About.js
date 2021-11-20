@@ -22,10 +22,10 @@ function About() {
         <div className="container-about">  
             <br></br>
             <br></br>
-            <h1>{title}</h1>
+            <h1 className="title-about">{title}</h1>
             <br></br>
             <br></br>
-            <h3>A Cartilha Digital tem como objetivo a criação de uma cartilha sobre a Lei Geral de Proteção de Dados.</h3>
+            <h3>A Cartilha Digital tem como objetivo a criação de um guia sobre a Lei Geral de Proteção de Dados.</h3>
             <br></br>
             <h3>É um projeto multidisciplinar feito pelos alunos da UniFBV Wyden dos Núcleos: <u> <div className="btn-di" onClick={()=>navigateDireito()}>
                 <p className="btn-di-text">Jurídico</p>
