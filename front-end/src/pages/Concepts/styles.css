@@ -40,9 +40,17 @@
 
 .carousel-gibi::-webkit-scrollbar {
     display: none;
-    width: 0px;
-    height: 0px;
 }
+
+@-moz-document url-prefix() {
+    .carousel-gibi {
+      scrollbar-width: none;
+    }
+
+    .carousel-concepts {
+        scrollbar-width: none;
+    }
+  }
 
 .item {
     margin-left: 5px;
@@ -80,8 +88,10 @@
 
 .carousel-concepts::-webkit-scrollbar {
     display: none;
-    width: 0px;
-    height: 0px;
+}
+
+.carousel-concepts::-moz-scrollbar {
+    display: none;
 }
 
 .item-concepts {
@@ -136,19 +146,4 @@
     color: var(--background);
     text-align: center;
 }
-
-@media (min-width: 1100px) {
-
-    .carousel-gibi::-webkit-scrollbar {
-        display: none;
-        width: 0px;
-        height: 0px;
-    }
-    
-    .carousel-concepts::-webkit-scrollbar {
-        display: none;
-        width: 0px;
-        height: 0px;
-    }
- }
 
