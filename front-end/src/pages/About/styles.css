@@ -8,15 +8,22 @@
 .btn-about {
     padding-left: 10px;
     padding-right: 10px;
-    height: 50px;
-    width: 30%;
+    height: 40px;
+    width: 10%;
     border-radius: 10px;
-    background-color: var(--dark-green);
-    margin: 0 auto;
+    background-color: var(--dark-blue);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.btn-about:hover{
+    transform: scale(1.05);
+    background-color: var(--light-blue);
 }
 
 .btn-about:hover {
@@ -55,13 +62,22 @@ h1{
 
 .btn-t {
     height: 35px;
-    width: 13%;
+    width: 14%;
     border-radius: 10px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
+
+.title-about {
+    color: var(--dark-blue);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
 
 .btn-t:hover {
     transform: scale(1.02);

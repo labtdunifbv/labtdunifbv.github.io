@@ -19,6 +19,15 @@
     cursor: pointer;
 }
 
+.title-utilites {
+    color: var(--dark-blue);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+
 .btn-utilities:hover {
     transform: scale(1.05);
 }

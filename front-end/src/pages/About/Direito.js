@@ -10,9 +10,7 @@ function Direito() {
     return(
         <div className="container-about">  
             <br></br>
-            <br></br>
             <h1>NÚCLEO JURÍDICO</h1>
-            <br></br>
             <br></br>
             <h3>
             Prof. Alessandra Prôa Greenhalgh de Oliveira
