@@ -36,6 +36,7 @@ function Rights() {
                             <p className="item-text">{right.text}</p>
                             <p className="item-text">{right.text1}</p>
                             <p className="item-text">{right.text2}</p>
+                            <p className="item-text">{right.text3}</p>
                         </div>
                     ))}
                 </div>
