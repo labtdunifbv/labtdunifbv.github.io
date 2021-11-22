@@ -1,9 +1,10 @@
 export const RightsData = [
     {
         title: "Art. 18. p1.",
-        text: "1 - A confirmação a existência de operações com os seus dados pessoais, quando o titular desconhece qualquer tipo de relação com a empresa e questiona se ela tem ou não os seus dados.",
-        text1: "2 - A concessão acesso aos seus dados pessoais que estão sob a sua guarda.",
-        text2: "3 - A correção de dados pessoais incompletos, inexatos ou desatua-lizados quando você verificar que eles estão incorretos, incompletos ou desatualizados no banco de dados de uma empresa, é assegurado ao titular o direito de retificação dessa informação.",
+        text: "Você como titular dos dados pessoais tem direito a solicitar do controlador, a qualquer momento:",
+        text1: "1 - A confirmação a existência de operações com os seus dados pessoais, quando o titular desconhece qualquer tipo de relação com a empresa e questiona se ela tem ou não os seus dados.",
+        text2: "2 - A concessão acesso aos seus dados pessoais que estão sob a sua guarda.",
+        text3: "3 - A correção de dados pessoais incompletos, inexatos ou desatua-lizados quando você verificar que eles estão incorretos, incompletos ou desatualizados no banco de dados de uma empresa, é assegurado ao titular o direito de retificação dessa informação.",
     },
     {
         title: "Art. 18. p2.",
